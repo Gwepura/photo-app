@@ -18,7 +18,7 @@ class RegistrationsController < Devise::RegistrationsController
           @payment.process_payment
           @payment.save
           rescue Exception => e
-          flash[:error] e.message
+          flash[:error] = e.message
           resource.destroy 
           puts "Payment failed"
           
