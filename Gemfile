@@ -30,6 +30,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
 gem 'carrierwave_direct'
+gem 'dropbox', '~> 1.3'
 
 ###################################
 #         MY GEMS - END          #
