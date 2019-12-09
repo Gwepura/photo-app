@@ -15,3 +15,6 @@
 //= require twitter/bootstrap
 //= require activestorage
 //= require_tree .
+//= require dropbox
+
+new dropbox();

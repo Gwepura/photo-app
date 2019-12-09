@@ -29,6 +29,7 @@ gem 'stripe'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
+gem 'carrierwave_direct'
 
 ###################################
 #         MY GEMS - END          #
